@@ -126,12 +126,20 @@ table.comparison td.no{
   background-color: rgba(222, 35, 4, 0.5);
 }
 
+table.comparison td.part{
+  background-color: rgba(222, 158, 4, 0.5);
+}
+
 table.comparison tr:hover td.yes{
   background-color: rgba(191, 238, 99, 1);
 }
 
 table.comparison tr:hover td.no{
   background-color: rgba(222, 35, 4, 1);
+}
+
+table.comparison tr:hover td.part{
+  background-color: rgba(222, 158, 4, 1);
 }
 
 footer{
