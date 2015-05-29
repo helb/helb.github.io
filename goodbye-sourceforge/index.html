@@ -18,26 +18,164 @@
       <p>SourceForge, once a&nbsp; trustworthy source code hosting site, started to place misleading ads (like <em>fake download buttons</em>) a few years ago. They are also bundling third-party adware/malware directly with their Windows installer.</p>
       <p>Some project managers decided to leave SourceForge – partly because of this, partly just because there are better options today. SF staff <a href="https://sourceforge.net/blog/gimp-win-project-wasnt-hijacked-just-abandoned/">hijacked</a> some of <a href="https://sourceforge.net/u/sf-editor2/profile/">these</a> <a href="https://sourceforge.net/u/sf-editor1/profile/">abandoned</a> <a href="https://sourceforge.net/u/sf-editor3/profile/">accounts</a>, partly to bundle the crapware with their installers. It has become just another sleazy garbage site with downloads of fake antivirus programs and such.</p>
       <p>~</p>
-      <p><em>Goodbye and thanks for all the fish.</em></p>
+      <p><em>So long and thanks for all the fish.</em></p>
+      
+      <h2>How can I help?</h2>
+      <p>If you agree that SourceForge is in fact <a href="http://arstechnica.com/information-technology/2015/05/sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/">distributing malicious software under the guise of open source projects</a>, <a href="https://www.google.com/safebrowsing/report_badware/">report them to google</a>.  Ideally this will help remove them from search results, prevent others from suffering their malware and provide them with incentive to change their behavior.</p>
+    
+      
+      <h2>Mirror operators,</h2>
+      <p>please consider if you want to continue supporting SF. It was once a useful open source software archive, but those days are gone. Installers bundled with crapware are effectively distributed to and downloaded from <em>your</em> servers.</p>
+      
     </section>
     <section class="where">
       <h2>Where to move?</h2>
-      <p>Chances are you already moved your projects out of SF, if you ever had any on there. There are <a href="http://en.wikipedia.org/wiki/Comparison_of_source_code_hosting_facilities">many options</a> where to host your work. Some of the most popular ones are:</p>
-      <ul>
-        <li><a href="https://github.com">Github</a> – git</li>
-        <li><a href="https://about.gitlab.com/">Gitlab</a> – git, possible to <a href="https://about.gitlab.com/features/">host on your own server</a></li>
-        <li><a href="http://gogs.io/">Gogs</a> – git, <a href="http://gogs.io/docs/installation/">self-hosted</a></li>
-        <li><a href="https://bitbucket.com">Bitbucket</a> – git, mercurial</li>
-        <li><a href="https://launchpad.net/">Launchpad</a> – bazaar, git</li>
-        <li><a href="https://savannah.gnu.org/">Savannah</a> – bazaar, svn, mercurial, git</li>
-        <li><a href="https://git.directory/">Git.Directory</a> - git, based on GitLab</li>
-	<li><a href="http://chiselapp.com/">Chisel</a> – fossil, possible to self-host</li>
-      </ul>
+      <p>Chances are you already moved your projects out of SF, if you ever had any on there. There are <a href="http://en.wikipedia.org/wiki/Comparison_of_source_code_hosting_facilities">many options</a> where to host your work:</p>
+         
+      <table class="comparison">
+      <thead>
+      <tr>
+        <th class="name"></th>
+        
+        <th class="vcs"><span>git&nbsp;&nbsp;&nbsp;&nbsp;</span></th>
+        <th class="vcs"><span>mercurial</span></th>
+        <th class="vcs"><span>subversion</span></th>
+        <th class="vcs"><span>bazaar</span></th>
+        <th class="vcs"><span>fossil</span></th>
+        
+        <th class="feature"><span>issue tracker</span></th>
+        <th class="feature"><span>wiki</span></th>
+        <th class="feature"><span>web hosting</span></th>
+        <th class="feature"><span>mailing list</span></th>
+        <th class="feature"><span>free public repos</span></th>
+        <th class="feature"><span>self hosted</span></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td class="name"><a href="https://github.com">GitHub</a></th>
+        
+        <td class="vcs yes">yes</td><!-- git -->
+        <td class="vcs no">no</td><!-- mercurial -->
+        <td class="vcs yes">yes</td><!-- svn -->
+        <td class="vcs no">no</td><!-- bazaar -->
+        <td class="vcs no">no</td><!-- fossil -->
+        
+        <td class="feature yes">yes</td><!-- issues -->
+        <td class="feature yes">yes</td><!-- wiki -->
+        <td class="feature yes">yes</td><!-- webhosting -->
+        <td class="feature no">no</td><!-- mailing list -->
+        <td class="feature yes">yes</td><!-- free -->
+        <td class="feature no">no</td><!-- selfhost-->
+      </tr>
+      <tr>
+        <td class="name"><a href="https://gitlab.com">Gitlab</a></td>
+        
+        <td class="vcs yes">yes</td><!-- git -->
+        <td class="vcs no">no</td><!-- mercurial -->
+        <td class="vcs no">no</td><!-- svn -->
+        <td class="vcs no">no</td><!-- bazaar -->
+        <td class="vcs no">no</td><!-- fossil -->
+        
+        <td class="feature yes">yes</td><!-- issues -->
+        <td class="feature yes">yes</td><!-- wiki -->
+        <td class="feature yes">yes</td><!-- webhosting -->
+        <td class="feature no">no</td><!-- mailing list -->
+        <td class="feature yes">yes</td><!-- free -->
+        <td class="feature yes">yes</td><!-- selfhost-->
+      </tr>
+      <tr>
+        <td class="name"><a href="http://gogs.io">Gogs</a></td>
+        
+        <td class="vcs yes">yes</td><!-- git -->
+        <td class="vcs no">no</td><!-- mercurial -->
+        <td class="vcs no">no</td><!-- svn -->
+        <td class="vcs no">no</td><!-- bazaar -->
+        <td class="vcs no">no</td><!-- fossil -->
+        
+        <td class="feature yes">yes</td><!-- issues -->
+        <td class="feature no">no</td><!-- wiki -->
+        <td class="feature yes">yes</td><!-- webhosting -->
+        <td class="feature no">no</td><!-- mailing list -->
+        <td class="feature yes">yes</td><!-- free -->
+        <td class="feature no">no</td><!-- selfhost-->
+      </tr>
+      <tr>
+        <td class="name"><a href="https://bitbucket.org/">Bitbucket</a></td>
+        
+        <td class="vcs yes">yes</td><!-- git -->
+        <td class="vcs yes">yes</td><!-- mercurial -->
+        <td class="vcs no">no</td><!-- svn -->
+        <td class="vcs no">no</td><!-- bazaar -->
+        <td class="vcs no">no</td><!-- fossil -->
+        
+        <td class="feature yes">yes</td><!-- issues -->
+        <td class="feature yes">yes</td><!-- wiki -->
+        <td class="feature yes">yes</td><!-- webhosting -->
+        <td class="feature no">no</td><!-- mailing list -->
+        <td class="feature yes">yes</td><!-- free -->
+        <td class="feature no">no</td><!-- selfhost-->
+      </tr>
+      <tr>
+        <td class="name"><a href="https://launchpad.net/">Launchpad</a></td>
+        
+        <td class="vcs yes">yes</td><!-- git -->
+        <td class="vcs no">no</td><!-- mercurial -->
+        <td class="vcs no">no</td><!-- svn -->
+        <td class="vcs yes">yes</td><!-- bazaar -->
+        <td class="vcs no">no</td><!-- fossil -->
+        
+        <td class="feature yes">yes</td><!-- issues -->
+        <td class="feature no">no</td><!-- wiki -->
+        <td class="feature no">no</td><!-- webhosting -->
+        <td class="feature no">no</td><!-- mailing list -->
+        <td class="feature yes">yes</td><!-- free -->
+        <td class="feature yes">yes</td><!-- selfhost-->
+      </tr>
+      <tr>
+        <td class="name"><a href="https://savannah.gnu.org/">Savannah</a></td>
+        
+        <td class="vcs yes">yes</td><!-- git -->
+        <td class="vcs yes">yes</td><!-- mercurial -->
+        <td class="vcs yes">yes</td><!-- svn -->
+        <td class="vcs yes">yes</td><!-- bazaar -->
+        <td class="vcs no">no</td><!-- fossil -->
+        
+        <td class="feature yes">yes</td><!-- issues -->
+        <td class="feature no">no</td><!-- wiki -->
+        <td class="feature yes">yes</td><!-- webhosting -->
+        <td class="feature yes">yes</td><!-- mailing list -->
+        <td class="feature yes">yes</td><!-- free -->
+        <td class="feature yes">yes</td><!-- selfhost-->
+      </tr>
+      <tr>
+        <td class="name"><a href="http://chiselapp.com/">Chisel</a></td>
+        
+        <td class="vcs no">no</td><!-- git -->
+        <td class="vcs no">no</td><!-- mercurial -->
+        <td class="vcs no">no</td><!-- svn -->
+        <td class="vcs no">no</td><!-- bazaar -->
+        <td class="vcs yes">yes</td><!-- fossil -->
+        
+        <td class="feature yes">yes</td><!-- issues -->
+        <td class="feature yes">yes</td><!-- wiki -->
+        <td class="feature no">no</td><!-- webhosting -->
+        <td class="feature no">no</td><!-- mailing list -->
+        <td class="feature yes">yes</td><!-- free -->
+        <td class="feature no">no</td><!-- selfhost-->
+      </tr>
+      </tbody>
+      </table>
 
-      <h2>Mirror operators,</h2>
-      <p>please consider if you want to continue supporting SF. It was once a useful open source software archive, but those days are gone. Installers bundled with crapware are effectively distributed to and downloaded from <em>your</em> servers.</p>
+      <p><a href="https://about.gitlab.com/">Gitlab</a> Community Edition is a popular opensource <a href="https://github.com">Github</a> alternative. Some companies offer free Gitlab hosting:</p>
+      <ul>
+        <li><a href="https://about.gitlab.com/gitlab-com/">GitLab.com</a> itself</li>
+        <li><a href="https://git.directory/">Git.Directory</a></li>
+        <li><a href="https://git.framasoft.org/">Framasoft</a></li>
+      </ul>
     </section>
   </div>
+
   <footer>
     <p>Not affiliated with any project hosting site/service. Send&nbsp;a&nbsp;<a href="https://github.com/helb/helb.github.io/tree/master/goodbye-sourceforge">pull&nbsp;request</a> to suggest changes to this page.</p>
   </footer>
