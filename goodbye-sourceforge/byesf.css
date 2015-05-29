@@ -68,6 +68,10 @@ header em{
   font-size: 1.25em;
 }
 
+#content section ul{
+  padding-left: 1.667rem;
+}
+
 #content h2{
   /*text-align: center;*/
   font-style: italic;
@@ -104,17 +108,13 @@ footer{
   background-repeat: repeat;
 }
 
-ul{
-  padding-left: 1.667rem;
-}
-
 @media all and (max-width: 55em){
-  div{
+  #content{
     flex-direction: column;
     padding: 0.5rem 1rem 0.5rem 1rem;
   }
 
-  section:not(:last-child){
+  #content section:not(:last-child){
     border-right: none;
     border-bottom: 0.15rem solid rgba(0,0,0,0.15);
   }
