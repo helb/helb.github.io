@@ -84,6 +84,56 @@ header em{
   margin: 0.75em 0 0 0;
 }
 
+
+table.comparison{
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+  border-spacing: 0.5rem;
+  border-collapse: separate;
+}
+
+table.comparison th{
+  white-space: nowrap;
+  height: 8rem;
+}
+
+table.comparison th span{
+  display: inline-block;
+  -moz-transform: rotate(-90deg);  /* FF3.5+ */
+  -o-transform: rotate(-90deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
+  filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=3);  /* IE6,IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"; /* IE8 */
+  padding: 0 !important;
+  width: 2rem !important;
+  margin: 4rem auto 0 auto !important;
+}
+
+table.comparison td.feature,
+table.comparison td.vcs{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  text-indent: -9999px;
+  border: 0.15rem solid rgba(0,0,0,0.15);
+}
+
+table.comparison td.yes{
+  background-color: rgba(191, 238, 99, 0.5);
+}
+
+table.comparison td.no{
+  background-color: rgba(222, 35, 4, 0.5);
+}
+
+table.comparison tr:hover td.yes{
+  background-color: rgba(191, 238, 99, 1);
+}
+
+table.comparison tr:hover td.no{
+  background-color: rgba(222, 35, 4, 1);
+}
+
 footer{
   text-align: center;
   padding: 0.5rem;
