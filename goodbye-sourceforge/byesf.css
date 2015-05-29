@@ -113,33 +113,36 @@ table.comparison td.feature,
 table.comparison td.vcs{
   width: 2rem;
   height: 2rem;
-  border-radius: 1rem;
-  text-indent: -9999px;
-  border: 0.15rem solid rgba(0,0,0,0.15);
 }
 
 table.comparison td.yes{
-  background-color: rgba(191, 238, 99, 0.5);
+  color: rgba(191, 238, 99, 0.5);
+  text-align: center;
 }
 
 table.comparison td.no{
-  background-color: rgba(222, 35, 4, 0.5);
+  color: rgba(222, 35, 4, 0.5);
+  text-align: center;
 }
 
 table.comparison td.part{
-  background-color: rgba(222, 158, 4, 0.5);
+  color: rgba(222, 158, 4, 0.5);
+  text-align: center;
 }
 
 table.comparison tr:hover td.yes{
-  background-color: rgba(191, 238, 99, 1);
+  color: rgba(191, 238, 99, 1);
+  text-align: center;
 }
 
 table.comparison tr:hover td.no{
-  background-color: rgba(222, 35, 4, 1);
+  color: rgba(222, 35, 4, 1);
+  text-align: center;
 }
 
 table.comparison tr:hover td.part{
-  background-color: rgba(222, 158, 4, 1);
+  color: rgba(222, 158, 4, 1);
+  text-align: center;
 }
 
 footer{
