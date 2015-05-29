@@ -92,6 +92,10 @@ table.comparison{
   border-collapse: separate;
 }
 
+.table-wrapper {
+  overflow-x: auto;
+}
+
 table.comparison th{
   white-space: nowrap;
   height: 8rem;
