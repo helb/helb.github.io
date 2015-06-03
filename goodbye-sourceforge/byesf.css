@@ -119,31 +119,23 @@ table.comparison td.vcs{
   height: 2rem;
   border-radius: 1rem;
   text-indent: -9999px;
-  border: 0.15rem solid rgba(0,0,0,0.15);
+  /*border: 0.15rem solid rgba(0,0,0,0.15);*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-color: #1e2425;
 }
 
 table.comparison td.yes{
-  background-color: rgba(191, 238, 99, 0.5);
+  background-image: url(yes.svg);
 }
 
 table.comparison td.no{
-  background-color: rgba(222, 35, 4, 0.5);
+  background-image: url(no.svg);
 }
 
 table.comparison td.part{
-  background-color: rgba(222, 158, 4, 0.5);
-}
-
-table.comparison tr:hover td.yes{
-  background-color: rgba(191, 238, 99, 1);
-}
-
-table.comparison tr:hover td.no{
-  background-color: rgba(222, 35, 4, 1);
-}
-
-table.comparison tr:hover td.part{
-  background-color: rgba(222, 158, 4, 1);
+  background-image: url(asterisk.svg);
 }
 
 footer{
