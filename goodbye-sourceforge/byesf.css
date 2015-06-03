@@ -54,12 +54,19 @@ header em{
 }
 
 #content section{
-  flex: 1;
   padding: 0.5rem 1rem 1rem 1rem;
 }
 
 #content section:not(:last-child){
   border-right: 0.15rem solid rgba(0,0,0,0.15);
+}
+
+#content section.what{
+  width: 45%;
+}
+
+#content section.where{
+  width: 55%;
 }
 
 #content section p,
@@ -172,6 +179,11 @@ footer{
   #content{
     flex-direction: column;
     padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+
+  #content section.what,
+  #content section.where{
+    width: 100%;
   }
 
   #content section:not(:last-child){
