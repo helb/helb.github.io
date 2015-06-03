@@ -119,10 +119,10 @@ table.comparison td.vcs{
   height: 2rem;
   border-radius: 1rem;
   text-indent: -9999px;
-  /*border: 0.15rem solid rgba(0,0,0,0.15);*/
+  border: 0.15em solid #1a1b1b;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 75%;
+  background-size: 85%;
   background-color: #1e2425;
 }
 
@@ -136,6 +136,12 @@ table.comparison td.no{
 
 table.comparison td.part{
   background-image: url(asterisk.svg);
+}
+
+table.comparison tr:hover td.vcs,
+table.comparison tr:hover td.feature{
+  background-color: #1a1b1b;
+  border: 0.15em solid #2b464b;
 }
 
 footer{
