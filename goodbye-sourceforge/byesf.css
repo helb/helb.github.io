@@ -101,6 +101,8 @@ table.comparison{
 
 .table-wrapper {
   overflow-x: auto;
+  padding-right: 4rem;
+  margin-bottom: 1rem;
 }
 
 table.comparison th{
@@ -110,12 +112,10 @@ table.comparison th{
 
 table.comparison th span{
   display: inline-block;
-  -moz-transform: rotate(-90deg);  /* FF3.5+ */
-  -o-transform: rotate(-90deg);  /* Opera 10.5 */
-  -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
-  filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=3);  /* IE6,IE7 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"; /* IE8 */
-  padding: 0 !important;
+  -moz-transform: rotate(-45deg);  /* FF3.5+ */
+  -o-transform: rotate(-45deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-45deg);  /* Saf3.1+, Chrome */
+  padding: 1rem 0 0 0 !important;
   width: 2rem !important;
   margin: 4rem auto 0 auto !important;
 }
