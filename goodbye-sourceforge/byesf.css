@@ -60,7 +60,7 @@ hr {
 }
 
 #content section {
-    padding: 0.5rem 1rem 1rem;
+    padding: 1rem 10vh;
 }
 
 #content section:not(:last-child) {
@@ -116,5 +116,9 @@ footer {
     #content {
         flex-direction: column;
         padding: 0.5rem 1rem;
+    }
+
+    #content section {
+        padding: 1rem;
     }
 }
